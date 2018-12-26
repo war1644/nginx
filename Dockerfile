@@ -5,7 +5,7 @@ LABEL author=ahmerry@qq.com
 #nginx + echo mod
 RUN apk add --no-cache nginx-mod-http-echo
 #日志输出
-RUN apk add --no-cache -X http://mirrors.aliyun.com/alpine/edge/testing filebeat
+#RUN apk add --no-cache -X http://mirrors.aliyun.com/alpine/edge/testing filebeat
 #开放端口
 EXPOSE 80 443
 
