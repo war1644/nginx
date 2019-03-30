@@ -9,3 +9,5 @@
 * gitlab
 * php5-build - php5编译扩展镜像
 * log - 日志分析服务器镜像 基于EK（Elasticsearch，Kibana）技术栈， 由于Logstash过于重型，中小公司ek + filebeat 足够支撑了
+* golang
+* python
