@@ -4,7 +4,7 @@ nginx:
     # 自重启
     restart: "always"
     # host
-    #hostname: 'api.a.com'
+    hostname: 'alpine-nginx'
     # 环境变量
     #environment:
         #TEST: "test"
