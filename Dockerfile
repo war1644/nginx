@@ -3,7 +3,7 @@ FROM registry.cn-beijing.aliyuncs.com/dxq_docker/base:latest
 LABEL author=ahmerry@qq.com
 
 #nginx + echo mod
-RUN apk add --no-cache nginx-mod-http-echo & mkdir -p /var/lib/nginx/tmp
+RUN apk add --no-cache nginx-mod-http-echo & mkdir -p /var/lib/nginx/tmp/proxy
 #日志输出
 #RUN apk add --no-cache -X http://mirrors.aliyun.com/alpine/edge/testing filebeat
 #开放端口
